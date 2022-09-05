@@ -15,8 +15,5 @@
 ```vimscript
 let g:XkbSwitchLib="/usr/local/lib/libInputSourceSwitcher.dylib"
 let g:imeoff="/usr/local/bin/issw com.apple.keylayout.ABC"
-augroup IMEDisableGroup
-  autocmd!
-  autocmd InsertLeave * :call system(g:imeoff)
-augroup END
+autocmd InsertLeave * :call system(g:imeoff)
 ```
