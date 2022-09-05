@@ -1,9 +1,12 @@
 # vim-esc-to-eng for macOS
 
-libInputSourceSwitcher.dylib  
-[input-source-switcher](https://github.com/vovkasm/input-source-switcher.git)
-
 ## install
+  
+1. get source from  [input-source-switcher](https://github.com/vovkasm/input-source-switcher.git)  
+  and build, install binaries.
+2. add copy the code below to vimrc 
+
+## or
 
 1. clone repo to any location
 2. copy <downloaded_repo>/lib/libInputSourceSwitcher.dylib to /usr/local/lib
